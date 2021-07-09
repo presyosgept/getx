@@ -6,6 +6,8 @@ import 'package:getx/models/product.dart';
 class ProductTile extends StatelessWidget {
   final Product product;
 
+  ProductTile(this.product);
+
   @override
   Widget build(BuildContext context) {
     return Card(
